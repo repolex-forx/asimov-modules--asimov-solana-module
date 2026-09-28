@@ -1,0 +1,17 @@
+[2026-09-28T07:38:40Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-solana-module sha=5868590d ===
+[2026-09-28T07:38:40Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-solana-module sha=5868590d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5868590d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5868590dfc8776b5e6729f5b3f03859802403f17.nq.gz
+[2026-09-28T07:38:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:38:47Z] [iter=1] AST store loaded triples=6414 load_secs=0 mem_mb=95 MB
+[2026-09-28T07:38:47Z] [iter=1] Step 2: Finding LSP targets mem_mb=95 MB
+[2026-09-28T07:38:47Z] [iter=1] LSP targets found call_sites=67 imports=6 extends=0 implements=0 secs=0
+[2026-09-28T07:38:47Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=96 MB
+[2026-09-28T07:38:47Z] [iter=1] Position index built positions=445 nodes_with_types=546 secs=0 mem_mb=96 MB
+[2026-09-28T07:38:47Z] [iter=1] Step 3: Starting LSP resolution mem_mb=96 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:38:47Z] [iter=1] Resolving target type target_type=call_site count=67
+[2026-09-28T07:39:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=1 resolved=21 errors=0 current=src/block_url.rs
+[2026-09-28T07:39:17Z] [iter=1] Target type resolved target_type=call_site resolved=49 errors=0 secs=29 mem_mb=97 MB
+[2026-09-28T07:39:17Z] [iter=1] Resolving target type target_type=import_statement count=6
+[2026-09-28T07:39:29Z] [iter=1] Target type resolved target_type=import_statement resolved=6 errors=0 secs=13 mem_mb=97 MB
+[2026-09-28T07:39:41Z] [iter=1] Step 5: Writing final enrichment file triples=695
+[2026-09-28T07:39:41Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5868590dfc8776b5e6729f5b3f03859802403f17.nq.gz size_kb=9
+[2026-09-28T07:39:41Z] [iter=1] PHASE END: enrich elapsed_s=61 elapsed_min=1.0 total_triples=695
