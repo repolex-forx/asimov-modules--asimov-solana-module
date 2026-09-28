@@ -1,0 +1,11 @@
+{
+  "org": "asimov-modules",
+  "repo": "asimov-solana-module",
+  "versions": [
+    {
+      "commit": "5868590dfc8776b5e6729f5b3f03859802403f17",
+      "tag": "v0.0.2",
+      "parsed_at": "2026-09-28T07:41:15.076911+00:00"
+    }
+  ]
+}
