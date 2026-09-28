@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0",
+  "org": "asimov-modules",
+  "repo": "asimov-solana-module",
+  "versions": [
+    {
+      "commit": "5868590dfc8776b5e6729f5b3f03859802403f17",
+      "parsed_at": "2026-09-28T07:35:06.830745+00:00",
+      "tag": "v0.0.2",
+      "filetree": "filetree/5868590dfc8776b5e6729f5b3f03859802403f17.nq.gz",
+      "blobs": [
+        "blob/7a5c0437ad958635b15d5c43e768cbc46aaee38d.nq.gz",
+        "blob/9fe50de16e59d550235aa6d7d15ee12ddf054414.nq.gz",
+        "blob/a36fedab8db68b26a76fbbf1de1f549e4a12261b.nq.gz",
+        "blob/6b23d61018f43b840f8d2ff3b45a1c02d76df38d.nq.gz",
+        "blob/10b359dd05935c73efb064470f9ecda90f6d28aa.nq.gz",
+        "blob/efb98088164f5786b17e83ed384971fc3c74f93c.nq.gz",
+        "blob/aae9bf091c6b579e543599c77a707e9338e68f2f.nq.gz",
+        "blob/cc69eed9ef77a78053a05941e3e07b1911195afe.nq.gz",
+        "blob/cf42f6893594e2f8be2b722de51123d65e4d61c4.nq.gz",
+        "blob/75e3b65f99b29f48ab230e3eab3de8d0b7a9229f.nq.gz",
+        "blob/0ce7e79e0b4754b41a1ee28ef7687b7c0d572637.nq.gz",
+        "blob/bf8ee3c1bfd42766c167fefb6d4f541935fe0e0e.nq.gz",
+        "blob/e3e57a8ce4ccbf74759a6df8fa4a3980ff1c9209.nq.gz",
+        "blob/4b02198285c4c8ca236c0c045b9dc63595926e47.nq.gz",
+        "blob/66ec7c8820cb0bae04644a13893bb698771327be.nq.gz",
+        "blob/4e379d2bfeab6461d0455bf5bbb8792845d9bbea.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/af9908b08f4b33c32a0080af73f53bc0fa0cdce4.nq.gz",
+        "blob/2909c66eccf5beabe5811487516cc8f17b5cc246.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz"
+}
